@@ -1,0 +1,14 @@
+{
+  "name": "JYek",
+  "version": "1.0.0",
+  "description": "jyek's personal website",
+  "scripts": {
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  },
+  "keywords": ["blog", "eleventy", "static-site"],
+  "author": "",
+  "license": "MIT"
+}
