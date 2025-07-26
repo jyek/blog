@@ -1,9 +1,10 @@
 {
-  "name": "JYek",
+  "name": "justinyek.com",
   "version": "1.0.0",
-  "description": "jyek's personal website",
+  "description": "personal website and blog",
   "scripts": {
-    "build": "eleventy"
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0"
