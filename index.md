@@ -12,7 +12,7 @@ description: "Finance leader and software engineer exploring with AI and finance
           This is a space for ideas, experiments, and thoughts around AI, finance, and what happens when the two collide.
         </p>
         <p>
-          I started it because I believe AI is going to fundamentally change finance teams — not just in productivity, but in how we think, plan, and make decisions. I'm here to share what I'm learning as I apply AI tools in real finance work, and hopefully learn from others doing the same.
+          I believe AI is going to fundamentally change finance teams — not just in productivity, but in how we think, plan, and make decisions. I'm here to share what I'm learning as I apply AI tools in real finance work, and hopefully learn from others doing the same.
         </p>
         <p>
           Right now, I lead finance at Airwallex, a fintech company building the future of global banking. We're valued at $6.2B and growing fast.

@@ -1,6 +1,6 @@
 ---
 layout: blog.njk
-title: "Generative AI for finance"
+title: "Generative AI for finance landscape"
 description: "A market map of generative AI companies and projects transforming finance teams across accounting, FP&A, corporate development, tax, treasury, and audit functions."
 date: 2025-07-01
 ---
