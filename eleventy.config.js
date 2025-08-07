@@ -10,7 +10,9 @@ module.exports = function(eleventyConfig) {
   
   // Create a collection for blog posts
   eleventyConfig.addCollection("posts", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("./blog/**/*.md").reverse();
+    return collectionApi.getFilteredByGlob("./blog/**/*.md")
+      .filter(post => !post.data.draft) // Exclude draft posts
+      .reverse();
   });
   
   // Add date filter

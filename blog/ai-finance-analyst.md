@@ -3,6 +3,7 @@ layout: blog.njk
 title: "Vibe coding an AI FP&A analyst"
 date: 2025-07-26
 description: "How I built an AI agent to help with financial analysis, modeling, and reporting using Autogen and Google Workspace integration."
+draft: true
 ---
 
 ## Problem
