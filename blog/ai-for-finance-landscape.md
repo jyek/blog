@@ -1,14 +1,25 @@
 ---
 layout: blog.njk
-title: "Generative AI for finance landscape"
-description: "A market map of generative AI companies and projects transforming finance teams across accounting, FP&A, corporate development, tax, treasury, and audit functions."
+title: "AI for finance landscape"
+description: "A map of gen AI companies and projects transforming finance teams across accounting, FP&A, corporate development, tax, treasury, and audit functions."
 date: 2025-07-01
 ---
 
-This is a live article on the problem spaces, startups and projects in generative AI for finance.
+Gen AI is reshaping the office of the CFOs and startups and projects are emerging. This is a live article that lays them out.
 
-## Problem space & startups
+## What to Expect from Gen AI Finance Apps
 
+**Address the last-mile**: Finance automation already handles the bulk work—OCR, reconciliation, treasury. Gen AI will tackle what still happens on calls and spreadsheets: edge case journals, month-end flux analysis, complex accruals.
+
+**User interface revolution**: Most CFO software predates dynamic UI. The next generation will replace hard-coded configurations with agentic workflows and dynamic dashboards.
+
+**Work where finance teams live**: Tools that work with Microsoft and Google have structural advantages. Finance teams spend their day in Excel, Word, and PowerPoint. Just like Cursor and Claude Code work alongside engineers in their code editor, AI that works natively in these environments wins.
+
+**Disrupt from simple to complex**: Start with analyst tasks—AP/AR automation, variance analysis, basic dashboards. Move to complex modeling and decision-making as models improve.
+
+## Startups
+
+<div class="table-container">
 <table>
       <thead>
       <tr>
@@ -39,7 +50,7 @@ This is a live article on the problem spaces, startups and projects in generativ
     <tr>
       <td>Close & consolidation</td>
       <td>I need to close my books on time<br>I need to see a combined view of the entities in my business<br>I need to create and track intercompany movements easily</td>
-      <td><a href="https://www.blackline.com/" target="_blank" rel="noopener">BlackLine</a>, <a href="https://floqast.com/" target="_blank" rel="noopener">FloQast</a>
+      <td><a href="https://www.blackline.com/" target="_blank" rel="noopener">BlackLine</a>, <a href="https://floqast.com/" target="_blank" rel="noopener">FloQast</a></td>
     </tr>
     <tr>
       <td>Financial reporting</td>
@@ -51,8 +62,8 @@ This is a live article on the problem spaces, startups and projects in generativ
     </tr>
     <tr>
       <td>Planning & budgeting</td>
-      <td>I need insights about my business<br>I need to develop a financial plan for my business</td>
-      <td><a href="https://www.pigment.com/" target="_blank" rel="noopener">Pigment</a>, <a href="https://runway.com/" target="_blank" rel="noopener">Runway</a>, <a href="https://www.summation.com/" target="_blank" rel="noopener">Summation</a></td>
+      <td>I need insights about my business<br>I need to develop a budget for my business</td>
+      <td><a href="https://www.pigment.com/" target="_blank" rel="noopener">Pigment</a>, <a href="https://runway.com/" target="_blank" rel="noopener">Runway</a>, <a href="https://www.summation.com/" target="_blank" rel="noopener">Summation</a>, <a href="https://cashboard.co/" target="_blank" rel="noopener">Cashboard</a>, <a href="https://www.getaleph.com/" target="_blank" rel="noopener">Aleph</a></td>
     </tr>
     <tr>
       <td>Financial modeling & analysis</td>
@@ -63,7 +74,7 @@ This is a live article on the problem spaces, startups and projects in generativ
       <td>Office productivity tools</td>
       <td>I need a tool for financial analysis and slides</td>
       <td><a href="https://www.thebricks.com/" target="_blank" rel="noopener">Bricks</a></td>
-    
+    </tr>
     <tr class="section-header">
       <td colspan="3"><strong>Corporate Development</strong></td>
     </tr>
@@ -83,7 +94,7 @@ This is a live article on the problem spaces, startups and projects in generativ
     <tr>
       <td>Tax compliance</td>
       <td>I need to automate tax compliance and filing processes</td>
-      <td><a href="https://www.avalara.com/" target="_blank" rel="noopener">Avalara</a>, <a href="https://www.taxjar.com/" target="_blank" rel="noopener">TaxJar</a>, <a href="https://kintsugi.com/" target="_blank" rel="noopener">Kintsugi</a></td>
+      <td><a href="https://www.avalara.com/" target="_blank" rel="noopener">Avalara</a>, <a href="https://www.taxjar.com/" target="_blank" rel="noopener">TaxJar</a>, <a href="https://kintsugi.com/" target="_blank" rel="noopener">Kintsugi</a>, <a href="https://www.numeralhq.com/" target="_blank" rel="noopener">Numeral</a></td>
     </tr>
     <tr>
       <td>Transfer pricing</td>
@@ -113,22 +124,12 @@ This is a live article on the problem spaces, startups and projects in generativ
     </tr>
   </tbody>
 </table>
+</div>
 
-## Resources
+## Projects
 
 * [FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) - An open-source AI agent platform for financial analysis using LLMs
 * [LLMs in Finance](https://github.com/hananedupouy/LLMs-in-Finance) - A curated collection of resources, papers, and tools for applying large language models in finance
 * [AI Financial Agent](https://github.com/virattt/ai-financial-agent) - A Python-based AI agent for automated financial analysis and portfolio management
-
-## Observations
-
-- **User interface revolution**: I haven't seen the user interface revolution in accounting and spend software that we've seen in software engineering (Lovable, Cursor). Many modern accounting and FP&A startups are still module driven rather than AI native.
-
-- **Adoption follows complexity**: Adoption should start with simple operations (AP/AR automation) and move to complex analysis (strategic finance) as better models are released.
-
-- **Suite advantage**: Microsoft and Google have a structural advantage in financial tasks because the AI agent can integrate seamlessly with existing workflows in Excel / Sheets, Word / Docs and Powerpoint / Slides that finance teams already use daily.
-
----
-
-*What generative AI tools is your finance team using? I'd love to hear about your experiences and learn about companies I might have missed in this overview.*
+* [LangManus](https://github.com/Darwin-lfl/langmanus) - Open source representation of Manus' multi-agent system
 

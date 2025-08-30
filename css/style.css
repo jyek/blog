@@ -174,6 +174,9 @@ section h2 {
 
 .recent-posts li {
   margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .recent-posts a {
@@ -182,10 +185,19 @@ section h2 {
   font-size: 16px;
   line-height: 1.4;
   transition: color 0.2s ease;
+  flex: 1;
 }
 
 .recent-posts a:hover {
   color: var(--text-secondary);
+}
+
+.recent-posts .post-date {
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 20px;
+  white-space: nowrap;
 }
 
 /* Projects Section */
@@ -238,7 +250,7 @@ section h2 {
 }
 
 .post-header {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -441,6 +453,23 @@ section h2 {
   background-color: #f5f5f5;
   font-weight: 600;
   color: var(--text-primary);
+}
+
+/* Table container for horizontal scrolling */
+.table-container {
+  overflow-x: auto;
+  margin: 25px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  /* Extend beyond content width */
+  margin-left: calc(-150px);
+  margin-right: calc(-150px);
+}
+
+.table-container table {
+  margin: 0;
+  min-width: 1050px; /* 50% more than the 700px content width */
+  width: 100%;
 }
 
 .post-content strong {

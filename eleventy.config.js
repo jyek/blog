@@ -8,6 +8,9 @@ module.exports = function(eleventyConfig) {
   // Copy favicon to output directory
   eleventyConfig.addPassthroughCopy("favicon.svg");
   
+  // Copy media to output directory
+  eleventyConfig.addPassthroughCopy("media");
+  
   // Create a collection for blog posts
   eleventyConfig.addCollection("posts", function(collectionApi) {
     return collectionApi.getFilteredByGlob("./blog/**/*.md")
@@ -19,7 +22,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("dateFilter", function(date) {
     return new Date(date).toLocaleDateString('en-US', {
       year: 'numeric',
-      month: 'long',
+      month: 'short',
       day: 'numeric'
     });
   });
